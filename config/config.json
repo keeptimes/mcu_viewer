@@ -1,0 +1,8 @@
+{
+  "serial": {"baudrate": 115200},
+  "parameters": [
+    {"name": "角度", "key": "angle", "unit": "°", "type": "float", "show": true, "curve": true, "min": -90, "max": 90},
+    {"name": "速度", "key": "speed", "unit": "rpm", "type": "int", "show": true, "curve": true, "min": 0, "max": 500},
+    {"name": "电压", "key": "voltage", "unit": "V", "type": "float", "show": true, "curve": false, "min": 0, "max": 15}
+  ]
+}
